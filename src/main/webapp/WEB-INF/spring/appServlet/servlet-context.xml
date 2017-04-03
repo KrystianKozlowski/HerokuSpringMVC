@@ -25,8 +25,8 @@ xsi:schemaLocation="http://www.springframework.org/schema/mvc
 <beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 	<beans:property name="driverClassName" value="org.postgresql.Driver" />
 	<beans:property name="url" value="jdbc:postgresql://ec2-54-235-112-37.compute-1.amazonaws.com:5432/dcrspt780u3db8?sslmode=require" />
-	<beans:property name="username" value="ujmyrcghyksccp" />
-	<beans:property name="password" value="caa729ed350d29d3d7415b6fc4d89d637ac0c65f4a355780f6ec8fdc38321d54" />
+	<beans:property name="username" value="user" />
+	<beans:property name="password" value="password" />
 </beans:bean>
 <!-- Hibernate 4 SessionFactory Bean definition -->
 <beans:bean id="hibernate4AnnotatedSessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
